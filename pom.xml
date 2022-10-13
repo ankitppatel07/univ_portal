@@ -61,7 +61,7 @@
 							<goal>copy-resources</goal>
 						</goals>
 						<configuration>
-							<outputDirectory>${basedir}/src/main/resources/test_location</outputDirectory>
+							<outputDirectory>${basedir}/src/main/webapp</outputDirectory>
 							<resources>
 								<resource>
 									<directory>${basedir}/univ_portal-client/dist/univ_portal-client</directory>
